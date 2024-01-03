@@ -1,18 +1,17 @@
 body{
     margin: 0;
     padding: 0;
-    background: url('l2.jpeg') no-repeat;
-    background-size: 100% 735px;
+    background: url('pexels-tom-fisk-13706532.jpg') no-repeat;
+    background-size: 100% 100%;
 }
 .bg img{
-    margin-top: 70px;
-    margin-left: 30px;
+    margin-top: 80px;
 }
 .right img{
-    height: 500px;
+    width: 100%;
 }
 .text {
-    margin-top:70px;
+    margin-top:60px;
     font-size:60px;
     font-style:italic;
     font-weight:bold;
@@ -30,11 +29,11 @@ body{
     text-align:center;
     color:#FFF;
     text-shadow:3px 3px rgba(220,0,0,0.8);
-    margin-top:40px;
+    margin-top:30px;
     font-family: 'Young Serif', serif;
 }
 .text2 p{
-    margin-top:30px;
+    margin-top:10px;
     font-size:25px;
     font-weight:bold;
     word-spacing:3px;
@@ -57,7 +56,21 @@ body{
     animation-iteration-count:infinite;	
     animation-timing-function:linear;
 }
-.enter a{
+.enter p:hover{
+    
+    color:#10e730;
+}
+.enter  a{
     color:#FFF;
+}
+.enter a:hover{
     text-decoration:none;
+    
+}
+@media screen and (max-width:1000px) {
+    .enter p{
+        width: 100%;
+        margin-top: -100px;
+        background: rgba(151, 232, 71, 0.5);
+    }
 }
