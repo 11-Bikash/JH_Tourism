@@ -85,7 +85,7 @@ body{
     }
     .text2 p{
         font-size:18px ;
-        margin-left: 25px;
+        margin:5px auto;
     }
     .enter p{
         width: 50px;
