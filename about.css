@@ -1,0 +1,67 @@
+body{
+    background:rgb(198, 244, 170);
+}
+.area1 h2{
+    border-bottom: solid 5px #209b08;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.area1 p{
+    color: rgb(123, 85, 4);
+    font-weight: 500;
+}
+.area2 table{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.area2 table tr td{
+    border: solid 1px #DDDDDD;
+    padding: 5px 0px 5px 5px ;
+}
+.area2 table tr:first-child{
+    text-align: center;
+    background: #4D5D08;
+    color: #fff;
+}
+.area3 img{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: solid 5px #AD1E28;
+    transition: all 2s;
+}
+.area3 img:hover{
+    transform: scale(0.98,0.98);
+}
+.area3 h6{
+    color: #AD1E28;
+}
+.area4 .a4_1 p:first-child{
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 5px #2bb710;
+    font-weight: 500;
+}
+.area4 .a4_2 p:first-child{
+    color: rgb(123, 85, 4);
+    font-weight: 500;
+}
+.area5 .a5_1 p:first-child{
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 5px #2bb710;
+    font-weight: 500;
+}
+.area5 .a5_2 p:first-child{
+    color: rgb(123, 85, 4);
+    font-weight: 500;
+}
+.area6 .a6_1 p:first-child{
+    font-size: 25px;
+    padding-bottom: 10px;
+    border-bottom: solid 5px #209b08 ;
+    font-weight: 500;
+}
+.area6 .a6_2 p:first-child{
+    color: rgb(123, 85, 4);
+    font-weight: 500;
+}
