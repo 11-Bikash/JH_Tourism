@@ -89,8 +89,7 @@ body{
     }
     .enter p{
         width: 50px;
-        margin-left:150px;
-        margin-top: -130px;
+        margin:20px auto;
         background: rgba(121, 16, 159, 0.7);
     }
 }
