@@ -1,0 +1,117 @@
+body{
+    background:rgba(198, 244, 170,0.7);
+}
+.top{
+    background: url('111065banner.webp') no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+    .top11{
+        width: 100%;
+        height: 100%;
+        border: solid 2px #fff;
+        background: #aff3a1;
+        border-radius: 2px;
+        margin-top: -20px;
+    }
+    .top1{
+        height:100px;
+        padding: 10px auto;
+    }
+    .top1 ul{
+            list-style:none;
+            margin:0;
+            padding:20px 0px 50px 27px;
+        
+        }
+        .top1 ul li{
+            float:left;
+                
+        }
+        .top1 ul li a:link, .top1 ul li a:visited{
+            color:#4b4242;
+            background:#30ea0b;
+            text-decoration:none;
+            padding:10px 25px;
+            display:block;
+            border-right:solid 2px #FFF;
+            transition: all 1s;
+        
+        }
+        .top1 ul li:last-child a:link, .top1 ul li:last-child a:visited{
+            border-right:none;
+        }
+        .top1 ul li a:hover{
+            color:#ff8248;
+            background:rgb(161, 246, 104);
+            transform: scale(0.98,0.98);
+        }
+        .top1 ul li ul{
+            display:none;
+        }
+        .top1 ul li:hover ul{
+            display:block;
+            position:absolute;
+            z-index:1000;
+        }
+        .top1 ul li:hover ul li{
+            float:none;
+        }
+        .top1 ul li:hover ul li a:link,#top1 ul li:hover ul li a:visited{
+            border:none;
+            border-bottom:solid 1px black;
+        }   
+
+        .a1{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+.foot{
+    margin-top: 30px;
+    background: url('pexels-artem-podrez-7233117.webp');
+    background-size: 100% 100%;
+}
+.foot img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.foot h2{
+    color: #30ea0b;
+}
+.foot ul{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    list-style: none;
+    font-weight: 300;
+    font-weight: 500;
+}
+.foot ul li{
+    margin-top: 15px;
+    font-size: 17px;
+    transition: all 1s;
+}
+.foot ul li:hover{
+    transform: scale(0.95,0.95);
+}
+.foot ul li a{
+    text-decoration: none;
+    color: #d4cece;
+}
+.foot ul li a:hover{
+    text-decoration: none;
+    color: #30ea0b;
+    
+}
+.foot iframe{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+@media screen and (max-width:1000px) {
+    .top{
+        height: 300px;
+    }
+    .top1 ul{
+        padding:20px 0px 50px 80px;
+    }
+}

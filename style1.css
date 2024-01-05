@@ -11,7 +11,7 @@ body{
         height:150px;
         bottom:500px;
         position:absolute;
-        background:linear-gradient(-45deg,transparent 78%,#30ea0b 60%);
+        background:linear-gradient(-45deg,transparent 78%,#54ea36 60%);
     }
     .logo img{
         margin-top: 10px;
@@ -22,7 +22,7 @@ body{
         border-bottom: solid 2px #FFF;
     }
     .light{
-        background: #30ea0b !important;
+        background: #54ea36;
     }
     .nav-item{
         font-size: 18px;
@@ -34,8 +34,18 @@ body{
     }
     .nav-link:hover{
         color:#ff8248 !important;    
-                transform: scale(0.98,0.98);
+        transform: scale(0.98,0.98);
     }
+    .collapse{
+        text-align: center !important;
+        padding: 10px auto;
+    }
+    .dropdown{
+        background: transparent !important;
+    }
+    .dropdown-menu{
+        background: #FFF !important;
+    }    
         .logo2{
         height:150px;
             background:transparent;
@@ -44,7 +54,7 @@ body{
             height: 80%;
             width: 100%;
         }
-        
+
 .policy{
     background:skyblue;
     padding-bottom:120px;
@@ -57,8 +67,9 @@ body{
     font-size: 30px;
     font-weight: 600;
     margin: 30px auto;
-    padding: 10px;
-    font-family: 'Playfair Display', serif;
+    padding: 12px;
+    padding-right: 17px;
+    padding-bottom: 17px;
 }
 .p1 p a{
     text-decoration: none;
@@ -110,7 +121,6 @@ body{
     background: url('image1.png');
 }
 .show{
-    height: 400px;
     background: url('pexels-denis-ovsyannikov-2724241.webp');
     background-size: 100% 100%;
 }
@@ -118,7 +128,6 @@ body{
     color: #FFF;
     font-size: 70px;
     font-weight: bold;
-    margin-top: 100px;
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
@@ -151,7 +160,7 @@ body{
     height: 30px;
 }
 .foot{
-    background: url('pexels-artem-podrez-7233117.webp');
+    background: url('l4.jpeg') no-repeat;
     background-size: 100% 100%;
 }
 .foot img{
