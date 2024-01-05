@@ -8,7 +8,7 @@ body{
 }				
 	.logo{
         width:100%;
-        height:150px;
+        margin-top:150px;
         bottom:500px;
         position:absolute;
         background:linear-gradient(-45deg,transparent 78%,#54ea36 60%);
@@ -21,24 +21,40 @@ body{
         padding-bottom: 20px;
         border-bottom: solid 2px #FFF;
     }
-    .light{
-        background: #54ea36;
-    }
+    .bg-light{
+        background:rgba(0,0,0,0.5) !important;
+   }
+   .light{
+        background: #AAC8FF;
+   }
     .nav-item{
         font-size: 18px;
         font-weight: 500;
     }
     .nav-link{
         color: #271e1a !important;
-        transition: all 1s;
     }
     .nav-link:hover{
-        color:#ff8248 !important;    
-        transform: scale(0.98,0.98);
+        color:#ff8248 !important;  
     }
     .collapse{
+        padding-left:20px !important;
+        padding:0px 0px 0px 20px !important;
+    }
+    .collapse ul li{
         text-align: center !important;
-        padding: 10px auto;
+        padding:0 10px;
+        background: #54ea36 !important;
+        display: block;
+        border-right: solid 2px #FFF;
+        transition: all 1s;
+    }
+    .collapse ul li:hover{
+        background: #7cec65 !important;    
+        transform: scale(0.98,0.98);
+    }
+    .collapse ul li:last-child{
+        border-right: none;
     }
     .dropdown{
         background: transparent !important;
@@ -47,11 +63,11 @@ body{
         background: #FFF !important;
     }    
         .logo2{
-        height:150px;
+        margin-top:10px;
             background:transparent;
         }
         .logo2 img{
-            height: 80%;
+            height: 85%;
             width: 100%;
         }
 
@@ -76,7 +92,7 @@ body{
 }
 .policy img:first-child{
     width: 100%;
-    box-shadow:1px 5px 14px 4px #5CFFFF;
+    box-shadow:1px 5px 20px 4px #5CFFFF;
 }
 .i1{
     margin: 10px auto;
@@ -116,7 +132,7 @@ body{
 }
 .imag{
     width: 100%;
-    height: 140px;
+    padding-top: 140px;
     margin-top: -140px;
     background: url('image1.png');
 }
@@ -124,15 +140,18 @@ body{
     background: url('pexels-denis-ovsyannikov-2724241.webp');
     background-size: 100% 100%;
 }
+.show{
+    padding: 70px 0;
+}
 .show p:first-child{
     color: #FFF;
     font-size: 70px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 1px 2px 6px rgba(0,0,0,0.5);
 }
 .show p{
-    color: #FFF;
+    color: #ffffff;
     font-size: 25px;
     font-weight: 500;
     text-align: center;
@@ -167,6 +186,9 @@ body{
     margin-top: 40px;
     margin-bottom: 20px;
 }
+.foot p{
+    color:#fff;
+}
 .foot h2{
     color: #30ea0b;
 }
@@ -197,4 +219,25 @@ body{
 .foot iframe{
     margin-top: 150px;
     margin-left: 50px;
+}
+@media screen and (max-width:1000px) {
+    .logo img{
+        margin-top: 10px;
+    }
+    .policy .i1 img{
+        margin-left:120px;
+        margin-top: 10px;
+    }
+    .policy .i1 p{
+        margin-left:80px;
+    }
+    .policy .i2 img{
+        margin-left:120px;
+    }
+    .p1 p :first-child{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 35px;
+        padding-left: 0px;
+    }
 }

@@ -23,11 +23,9 @@ body{
             list-style:none;
             margin:0;
             padding:20px 0px 50px 27px;
-        
         }
         .top1 ul li{
             float:left;
-                
         }
         .top1 ul li a:link, .top1 ul li a:visited{
             color:#4b4242;
@@ -37,7 +35,6 @@ body{
             display:block;
             border-right:solid 2px #FFF;
             transition: all 1s;
-        
         }
         .top1 ul li:last-child a:link, .top1 ul li:last-child a:visited{
             border-right:none;
