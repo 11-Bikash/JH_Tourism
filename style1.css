@@ -21,15 +21,13 @@ body{
         padding-bottom: 20px;
         border-bottom: solid 2px #FFF;
     }
-    .bg-light{
-        background:rgba(0,0,0,0.5) !important;
-   }
    .light{
-        background: #AAC8FF;
+        background: transparent !important;
    }
     .nav-item{
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
+        padding:0 12px !important;
     }
     .nav-link{
         color: #271e1a !important;
@@ -38,12 +36,9 @@ body{
         color:#ff8248 !important;  
     }
     .collapse{
-        padding-left:20px !important;
-        padding:0px 0px 0px 20px !important;
     }
     .collapse ul li{
         text-align: center !important;
-        padding:0 10px;
         background: #54ea36 !important;
         display: block;
         border-right: solid 2px #FFF;
@@ -92,7 +87,7 @@ body{
 }
 .policy img:first-child{
     width: 100%;
-    box-shadow:1px 5px 20px 4px #5CFFFF;
+    box-shadow:1px 5px 14px 4px rgba(0,0,0,0.5);
 }
 .i1{
     margin: 10px auto;
@@ -137,7 +132,7 @@ body{
     background: url('image1.png');
 }
 .show{
-    background: url('pexels-denis-ovsyannikov-2724241.webp');
+    background: url('pexels-denis-ovsyannikov-2724241.webp') fixed;
     background-size: 100% 100%;
 }
 .show{
@@ -160,26 +155,26 @@ body{
 }
 .gallery{
     margin: 30px 0 30px auto;
-    overflow: hidden;
 }
 .gallery p{
     font-size: 50px;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
-.gallery img{
-    height: 100%;
+.gallery .box{
+    width: 300px;
+    height: 250px;
+    background-color: #271e1a;
+    float: left;
+    border:solid 5px  #30ea0b;
+    overflow: hidden;
+}
+.gallery .box img{
     width: 100%;
-    transition: all 4s;
-}
-.gallery img:first-child:hover{
-    transform: scale(1.01,1.01);
-}
-.g1{
-    height: 30px;
+    height: 100%;
 }
 .foot{
-    background: url('l4.jpeg') no-repeat;
+    background: url('l4.jpeg') no-repeat fixed;
     background-size: 100% 100%;
 }
 .foot img{
@@ -224,6 +219,10 @@ body{
     .logo img{
         margin-top: 10px;
     }
+    .p1 p :first-child{
+        margin: 10px auto;
+        margin-top: 20px;
+    }
     .policy .i1 img{
         margin-left:120px;
         margin-top: 10px;
@@ -239,5 +238,14 @@ body{
         font-weight: 500;
         margin-left: 35px;
         padding-left: 0px;
+    }
+    .show p:first-child{
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .show p{
+        font-size: 20px;
+        padding-top:0px ;
+        margin-bottom: 30px;
     }
 }

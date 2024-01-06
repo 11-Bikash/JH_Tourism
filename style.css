@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding: 0;
+}
+.bag{
     background: url('pexels-tom-fisk-13706532.jpg') no-repeat;
     background-size: 100% 100%;
 }
@@ -28,33 +30,36 @@ body{
     border-bottom:solid 4px #FFF;
     text-align:center;
     color:#FFF;
-    text-shadow:3px 3px rgba(220,0,0,0.8);
+    text-shadow:3px 3px 4px rgba(220,0,0,0.8);
     margin-top:30px;
     font-family: 'Young Serif', serif;
 }
 .text2 p{
     margin-top:10px;
     font-size:25px;
-    font-weight:bold;
+    font-weight:500;
     word-spacing:3px;
     color:#fff;
     text-shadow:5px 3px  3px rgba(79, 9, 78 );
     position:relative;
     font-family: 'Belanosima', sans-serif;
 }
+.enter{
+    margin-top: -45px;
+}
+.enter p:first-child{
+    text-align: center;
+}
 .enter b{
     border: solid 1px white;
     border-radius: 20px;
-    padding: 20px 10px 10px 10px ;
+    padding: 15px 10px 10px 10px ;
     font-size: 30px;
-    margin-left:30px ;
 }
-.enter p{
+.enter p:last-child{
     color:#FFF;
     text-align:center;
-    padding-top:5px;
-    padding-bottom: 5px;
-    font-weight:bold;
+    font-weight:500;
     font-size: 20px;
 }
 .enter p:hover{
@@ -70,9 +75,14 @@ body{
 }
 @media screen and (max-width:1000px) {
     .bg img{
-        margin-top:10px ;
-        text-align: center;
+        margin-top: 30px;
         margin-left: 30px;
+        width: 50%;
+    }
+    .right img{
+        width: 80%;
+        margin-left: 30px;
+        margin-bottom: 100px;
     }
     .text{
         text-align: center;
@@ -81,18 +91,24 @@ body{
         margin-top: 50px
     }
     .text1 p{
-        font-size: 25px;
-        margin-left: 50px;
+        font-size: 20px;
+        margin:20px auto;
+        font-weight: 400;
     }
     .text2 p{
-        font-size:18px ;
-        margin:5px auto;
+        font-size:15px;
+        margin: 0px auto;
+        font-weight: 400;
+        margin-bottom: 30px;
     }
-    .enter b{
-        margin-left: 190px ;
+    .enter{
+        padding-bottom: 30px;
+    }
+    .enter p:first-child{
+        margin:0px auto;
+        margin-bottom: 5px;
     }
     .enter p{
-        width: 50px;
         margin:0px auto;
     }
 }
