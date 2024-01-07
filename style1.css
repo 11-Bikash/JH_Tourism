@@ -253,7 +253,7 @@ body{
     .logo{
         width:65%;
         height:45px;
-        bottom:850px;
+        bottom:800px;
         position:absolute;
         background:linear-gradient(-45deg,transparent 67%,#54ea36 60%);
     }
