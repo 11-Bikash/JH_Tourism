@@ -160,7 +160,7 @@ body{
     margin-bottom: 40px;
 }
 .gallery p{
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
@@ -173,24 +173,34 @@ body{
     position: relative;
 }
 .gal{
+    position:absolute;
+    bottom:-120px;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    color:#FFF;
+    font-weight:bold;
+    height:30%;
+    transition:all 2s;
     position: absolute;
-    display: none;
-    margin-top:-70px;			
-    bottom:-100px;
-    transition: all 2s;
-    background: rgba(0,0,0,0.5);
 }
 .gal p{
     font-weight: 700;
-    color: #d4cece;
+    color: #f6fe07;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
 }
 .gallery .g1:hover .gal{
     display: block;
-    bottom: 0;
+    bottom: 30px;
+}
+.gallery .g3:hover .gal{
+    display: block;
+    bottom: 30px;
 }
 .foot{
     background: url('pexels-artem-podrez-7233117.webp') no-repeat fixed;
     background-size: 100% 100%;
+    position: relative;
 }
 .foot img{
     margin-top: 40px;
