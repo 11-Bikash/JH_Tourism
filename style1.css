@@ -244,6 +244,9 @@ body{
     .head{
         display: block;
     }
+    .logo{
+        display: none;
+    }
     .video{
         position: relative;
     }	
