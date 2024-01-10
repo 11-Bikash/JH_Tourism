@@ -27,7 +27,7 @@ body{
     font-weight: 500;
 }
 .top1 ol li a:first-child{
-    color: #18f3fa;
+    color: #38cafb;
 }
 .top1 ol li:last-child{
     color: #FFF;
@@ -41,10 +41,10 @@ body{
     text-align: center;
     padding-top: 20px;
     font-family: 'Lemon', serif;
-    border-bottom: double 7px #FFf;
+    border-bottom: dashed 3px #787878;
 }
 .foot{
-    background: url('pexels-artem-podrez-7233117.webp') no-repeat fixed;
+    background: url('pexels-anete-lusina-4792352.jpg') no-repeat fixed;
     background-size: 100% 100%;
     margin-top: 30px;
 }
@@ -53,16 +53,20 @@ body{
     margin-bottom: 20px;
 }
 .foot p{
-    color:#fff;
+    color:#000;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.7);
 }
 .foot h2{
-    color: #30ea0b;
+    color: #147b00;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
 }
 .foot ul:first-child{
-    color: #FFF;
+    color: #74fe30;
     margin-top: 40px;
     margin-bottom: 0px;
     border-left: solid 5px fuchsia;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
     padding-left: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -70,7 +74,7 @@ body{
     font-size: 25px;
 }
 .foot ul{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     list-style: none;
     font-weight: 300;
     font-weight: 500;
@@ -85,7 +89,7 @@ body{
 .foot ul li a{
     text-decoration: none;
     font-size: 17px;
-    color: #d4cece;
+    color: #094303;
 }
 .foot ul li a:hover{
     text-decoration: none;
@@ -103,4 +107,5 @@ body{
     .top1 ol {
         padding-left: 27%;
     }
+
 }

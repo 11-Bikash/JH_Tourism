@@ -3,6 +3,7 @@
     padding: 0;
 }
 .top{
+    padding-top:170px;
     background:url('b2.jpg');
     background-size: cover;
 }
@@ -16,7 +17,7 @@
 .box p{
     color: #0a3000;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 30px;
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.342);
@@ -26,27 +27,35 @@ label{
     margin-left: 40px;
     margin-bottom: 5px;
     margin-top: 10px;
-    font-size: 20px;
+    padding-bottom: -5px;
+    font-size: 17px;
     color: black;
     font-weight: 400;
 }
 .box input[type=text]{
     width: 200px;
     height: 30px;
-    color:#fff;
+    color:#0a3000;
+    border: none;
+    border-bottom: solid 1px rgba(255, 252, 252, 0.867);
+    background:#FFF;
+    margin-left: 40px;
+    padding-top: -10px;
+}
+.box input[type=text]::placeholder{
+    padding-left: 10px;
+}
+.box input[type=password]{
+    width: 200px;
+    height: 30px;
+    color:#0a3000;
     border: none;
     border-bottom: solid 1px rgba(255, 252, 252, 0.867);
     background:#FFF;
     margin-left: 40px;
 }
-.box input[type=password]{
-    width: 200px;
-    height: 30px;
-    color:#fff;
-    border: none;
-    border-bottom: solid 1px rgba(255, 252, 252, 0.867);
-    background:#FFF;
-    margin-left: 40px;
+.box input[type=password]::placeholder{
+    padding-left: 10px;
 }
 .box input[type=checkbox]{
     width: 20px;
@@ -57,28 +66,22 @@ label{
     background:#FFF;
     margin-left: 40px;
     margin-top: 17px;
-    position: relative;
 }
-.box label:last-child{
-    margin-left: 5px;
-    margin-top: 15px;
-    position: absolute;
+.form p{
     font-size: 15px;
+    margin-top: -46px;
+    margin-left: -59px;
+    color: black;
+    font-weight: 400;
 }
-.box p:last-child{
-    font-size: 15px;
-    font-weight:bold;
-    color:#f6f6f9;
-    background: rgb(24, 122, 39);
-    border-radius: 5Px;
+.box button[type=submit]{
     margin-left: 40px;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
+    padding: 3px 15px;
+    padding-bottom: 6px;
+    color: #FFF;
+    background: #47af3c;
 }
-.box p:last-child:hover{
-    background: rgba(100, 255, 121, 0.759);
-    transform: scale(1.01,1.01);
-    font-size: 15.5px;
-    color: rgb(3, 47, 10);
+.box button[type=submit]:hover{
+    color: #FFF;
+    background: #53f341;
 }

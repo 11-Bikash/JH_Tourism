@@ -133,6 +133,14 @@ body{
     margin-top: -140px;
     background: url('image1.png');
 }
+.area .im3 img:first-child{
+    margin-top: -840px;
+    height: 200px;
+}
+.area .im3 img{
+    margin-top: -100px;
+    height: 200px;
+}
 .show{
     background: url('pexels-denis-ovsyannikov-2724241.webp') fixed;
     background-size: 100% 100%;
@@ -160,9 +168,11 @@ body{
     margin-bottom: 40px;
 }
 .gallery p{
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lemon', serif;
+    margin-bottom: 40px;
+    font-weight: 700;
 }
 .gallery .g2{
     padding: 30px;
@@ -170,35 +180,46 @@ body{
 .gallery img{
     width: 100%;
     height: 100%;
+}
+.box{
     position: relative;
+    overflow: hidden;
+    box-shadow: 12px 10px 22px -3px rgba(2, 104, 4, 0.56);
+}
+.box img{
+    height: 250px;
 }
 .gal{
     position:absolute;
-    bottom:-120px;
+    bottom:-50px;
     width:100%;
     text-align:center;
     padding:10px 0;
     color:#FFF;
     font-weight:bold;
-    height:30%;
+    height:40%;
     transition:all 2s;
     position: absolute;
+    background:linear-gradient(to bottom,transparent,black);
 }
 .gal p{
     font-weight: 700;
-    color: #f6fe07;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    color: #5cd300;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.7);
+    font-size: 30px;
 }
-.gallery .g1:hover .gal{
+.gallery .box:hover .gal{
     display: block;
-    bottom: 30px;
+    bottom: 0px;
+    background:linear-gradient(to bottom,transparent,black);
 }
-.gallery .g3:hover .gal{
+.gallery .box:hover .gal{
     display: block;
-    bottom: 30px;
+    bottom: 0px;
+    background:linear-gradient(to bottom,transparent,black);
 }
 .foot{
-    background: url('pexels-artem-podrez-7233117.webp') no-repeat fixed;
+    background: url('pexels-anete-lusina-4792352.jpg') no-repeat ;
     background-size: 100% 100%;
     position: relative;
 }
